@@ -55,11 +55,5 @@ public class GmailSender {
 		return flag;
 	}
 
-	public static int generateRandomNumber() {
-		Random random = new Random();
-		int min = 100000;
-		int max = 999999;
-		return random.nextInt(max - min + 1) + min;
-	}
-
+	
 }
